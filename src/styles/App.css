@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100vh;
+  background-color: #f9fcfb;
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+}
+
+#app input[type="number"],
+#app p {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 2em;
+}
+
+#app .row .col label{
+  margin: 0 !important;
+}
+
+#app .row .col select{
+  margin: 10px 0 0 0 !important;
+}
+
+@media (max-width: 1000px) {
+  #main_title{
+    font-size: 2em;
+  }
+
+  #app .row {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0;
+  }
+
+  #app .row .col{
+    margin: 20px 0 0 0 !important;
+    padding: 0 !important;
+  }
+
+}
+
+#made_by {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+}
+
+@media (max-width: 576px){
+  #made_by{
+    right: 30px;
+  }
+}
